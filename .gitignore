@@ -71,21 +71,4 @@ gen/
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
-# 这两个文件都是软链 不需要同步git
-/pubspec.yaml
-/android/gradle.properties
-/android/keystore
-/android/app/google-services.json
-/android/app/src/main/res
-/lib/utils/GlobalValue.dart
-
-# link 文件夹和自动生成的文件不同步
-/res
-ios/Runner/Assets.xcassets
-ios/Runner/GoogleService-Info.plist
-ios/Runner/Info.plist
-ios/Runner/Runner.entitlements
-flutter_modules/app_theme/lib/AppResourceTheme*.dart
-flutter_modules/app_theme/lib/AppGlobalConfig.dart
-
 **/*/.project
